@@ -20,7 +20,6 @@
 
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#" alt="mystore">藏书阁</a></li>
-                <li><a href="#" alt="aboutme">关于我</a></li>
                 <li><a href="#" alt="articles">文章列表</a></li>
                 <li><a href="#" alt="quotation">每日语录</a></li>
             </ul>
