@@ -1,3 +1,6 @@
-@import "bourbon/bourbon";
-
-$grey : #eee;
+@import "bourbon/_bourbon";
+@import "_thisLayout/_common.scss";
+@import "_thisLayout/_header.scss";
+@import "_thisLayout/_footer.scss";
+@import "_thisPages/_index.scss";
+@import "_thisHelpers/_plugins.scss";

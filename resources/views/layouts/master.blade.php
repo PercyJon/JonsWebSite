@@ -10,6 +10,7 @@
     <!-- Bootstrap -->
     <!-- <link href="../../assets/css/bootstrap.min.css" rel="stylesheet"> -->
     <link href="{{ URL::asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ URL::asset('assets/css/main.css') }}" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,18 +21,46 @@
   </head>
   <body>
 
+  {{--@extends('common.header')--}}
+  <nav class="nav navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        {{--<a class="navbar-brand" href="#">Brand</a>--}}
+      </div>
 
-  @extends('common.navbar')
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        {{--<ul class="nav navbar-nav">--}}
+        {{--<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>--}}
+        {{--<li><a href="#">Link</a></li>--}}
+        {{--</ul>--}}
 
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#" alt="mystore">藏书阁</a></li>
+          <li><a href="#" alt="articles">文章列表</a></li>
+          <li><a href="#" alt="about">关于我</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
 
   @yield('content')
 
-
-  @extends('common.footer')
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  {{--@extends('common.footer')--}}
+  <footer id="footer">
+    <h1>这是脚 !</h1>
+  </footer>
     <script src="{{ URL::asset('assets/js/plugins/jquery.min.js') }}"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="{{ URL::asset('assets/js/plugins/classie.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/plugins/cbpAnimatedHeader.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/plugins/prefixfree.min.js') }}"></script>
     <script src="{{ URL::asset('assets/js/plugins/bootstrap.min.js') }}"></script>
   </body>
 </html>

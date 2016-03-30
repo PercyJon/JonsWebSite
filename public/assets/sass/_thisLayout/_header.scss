@@ -1,0 +1,21 @@
+@import "../bourbon/_bourbon";
+
+.nav {
+  background: transparent;
+  padding: 10px 0;
+  border:transparent;
+  margin-bottom: 0;
+  font-size: 20px;
+  @include transition(padding .5s ease-in-out);
+
+  ul.nav > li >a{
+    color: #FFF;
+    font-size: inherit;
+  }
+}
+
+.navbar-scroll{
+  background: rgba(0,0,0,0.5);
+  padding: 20px 0;
+
+}

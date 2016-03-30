@@ -11,7 +11,7 @@
 var cbpAnimatedHeader = (function() {
 
 	var docElem = document.documentElement,
-		header = document.querySelector( '.cbp-af-header' ),
+		header = document.querySelector( '.navbar' ),
 		didScroll = false,
 		changeHeaderOn = 300;
 
@@ -27,10 +27,10 @@ var cbpAnimatedHeader = (function() {
 	function scrollPage() {
 		var sy = scrollY();
 		if ( sy >= changeHeaderOn ) {
-			classie.add( header, 'cbp-af-header-shrink' );
+			classie.add( header, 'navbar-scroll' );
 		}
 		else {
-			classie.remove( header, 'cbp-af-header-shrink' );
+			classie.remove( header, 'navbar-scroll' );
 		}
 		didScroll = false;
 	}

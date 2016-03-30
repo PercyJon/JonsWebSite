@@ -1,0 +1,28 @@
+#header{
+  position: relative;
+  text-align: center;
+  color: #FFF;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  @include background(url("../img/bg2.jpg"), linear-gradient(#66CCCC, #EEE), center no-repeat scroll);
+  @include size(100% 798px);
+
+  .shadow{
+    background: rgba(0,0,0,.5);
+    width: inherit;
+    height: inherit;
+  }
+}
+
+//articles
+#articles{
+  height:500px;
+}
+
+
+//quotation
+#quotation{
+  height:500px;
+}

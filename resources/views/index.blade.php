@@ -10,8 +10,13 @@
 @section('content')
 
     {{--站点总id : websiteContent --}}
-    <div id="websiteContent">
-        <div id="header">头部DIV</div>
+    <div id="site">
+        <div id="header">
+
+            <div class="shadow"></div>
+                <div class="glitch" data-text="Jón's WebSite">Jón's WebSite</div>
+
+        </div>
         <div id="articles">文章列表DIV</div>
         <div id="quotation">每日语录DIV</div>
     </div>
