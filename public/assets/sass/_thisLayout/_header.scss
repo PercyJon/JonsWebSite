@@ -6,7 +6,7 @@
   border:transparent;
   margin-bottom: 0;
   font-size: 20px;
-  @include transition(padding .5s ease-in-out);
+  @include transition(all .5s ease-in-out);
 
   ul.nav > li >a{
     color: #FFF;
@@ -16,6 +16,6 @@
 
 .navbar-scroll{
   background: rgba(0,0,0,0.5);
-  padding: 20px 0;
+  padding: 15px 0;
 
 }

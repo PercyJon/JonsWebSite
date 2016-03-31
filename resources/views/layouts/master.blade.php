@@ -53,6 +53,7 @@
     <h1>这是脚 !</h1>
   </footer>
     <script src="{{ URL::asset('assets/js/plugins/jquery.min.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/plugins/modernizr.js') }}"></script>
     <script src="{{ URL::asset('assets/js/plugins/classie.js') }}"></script>
     <script src="{{ URL::asset('assets/js/plugins/cbpAnimatedHeader.js') }}"></script>
     <script src="{{ URL::asset('assets/js/plugins/prefixfree.min.js') }}"></script>

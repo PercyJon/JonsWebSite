@@ -1,13 +1,13 @@
 .glitch{
   color: white;
-  font-size: 80px;
+  font-size: 70px;
   position: relative;
-  width: 600px;
+  width: 100%;
   top: -400px;
   margin: 0 auto;
 }
 @keyframes noise-anim{
-  $steps:15;
+  $steps:20;
   @for $i from 0 through $steps{
     #{percentage($i*(1/$steps))}{
       clip:rect(random(100)+px,9999px,random(100)+px,0);
@@ -18,7 +18,7 @@
   content: attr(data-text);
   position: absolute;
   left: 1px;
-  text-shadow: -1px 0 blue;
+  text-shadow: -2px 0 blue;
   top: 0px;
   width: inherit;
   color: white;
@@ -30,7 +30,7 @@
 }
 
 @keyframes noise-anim-2{
-  $steps:15;
+  $steps:20;
   @for $i from 0 through $steps{
     #{percentage($i*(1/$steps))}{
       clip:rect(random(100)+px,9999px,random(100)+px,0);
@@ -42,7 +42,7 @@
   position: absolute;
   left: -1px;
   width: inherit;
-  text-shadow: 1px 0 red;
+  text-shadow: 2px 0 red;
   top: 0;
   color: white;
   background: transparent;
