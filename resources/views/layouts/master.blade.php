@@ -22,7 +22,7 @@
   <body>
 
   {{--@extends('common.header')--}}
-  <nav class="nav navbar navbar-default navbar-fixed-top">
+  <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -37,11 +37,6 @@
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        {{--<ul class="nav navbar-nav">--}}
-        {{--<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>--}}
-        {{--<li><a href="#">Link</a></li>--}}
-        {{--</ul>--}}
-
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#" alt="mystore">藏书阁</a></li>
           <li><a href="#" alt="articles">文章列表</a></li>
