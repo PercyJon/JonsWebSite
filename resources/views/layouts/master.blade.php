@@ -47,14 +47,17 @@
   </nav>
 
 
-
   @yield('content')
 
 
 
   <footer id="footer">
-    <h1>这是脚 !</h1>
+    <div class="container">
+      <h1>这是脚 !</h1>
+    </div>
   </footer>
+
+
     <script src="{{ URL::asset('assets/js/plugins/jquery.min.js') }}"></script>
     <script src="{{ URL::asset('assets/js/plugins/modernizr.js') }}"></script>
     <script src="{{ URL::asset('assets/js/plugins/classie.js') }}"></script>

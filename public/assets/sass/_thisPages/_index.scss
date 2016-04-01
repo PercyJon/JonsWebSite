@@ -1,6 +1,5 @@
-.cloud-svg{
+%cloud-svg{
   position: absolute;
-  bottom:-8px;
   width:100%;
 }
 
@@ -21,11 +20,15 @@
     height: inherit;
     @include position(absolute, 0 null null 0);
   }
+
+  .cloud{
+    @extend %cloud-svg;
+    bottom:-8px;
+  }
 }
 
 //articles
 #articles{
-  //height:500px;
   position: relative;
 }
 
@@ -35,5 +38,11 @@
   position: relative;
   @include background(url("../img/bg1.jpg") center no-repeat fixed);
   @include size(100% 175px);
+
+  .cloud{
+    @extend %cloud-svg;
+    top:-8px;
+    @include transform(scaleY(-1));
+  }
 }
 
