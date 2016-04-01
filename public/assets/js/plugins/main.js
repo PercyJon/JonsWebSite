@@ -1,6 +1,6 @@
 //The clock toy
 
-var clockInt;
+/*var clockInt;
 $(document).ready(function() {
 
     $('#clock3D').fadeIn(200);
@@ -54,5 +54,5 @@ function runClock3D() {
     }
     clockInt = setInterval(updateClock, 1000);
     updateClock();
-}
+}*/
 
