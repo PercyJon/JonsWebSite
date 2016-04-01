@@ -32,7 +32,8 @@
 
 //quotation
 #quotation{
-  //height:500px;
-  
+  position: relative;
+  @include background(url("../img/bg1.jpg") center no-repeat fixed);
+  @include size(100% 175px);
 }
 

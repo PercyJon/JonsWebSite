@@ -1,6 +1,7 @@
 @import "../bourbon/_bourbon";
 
 #footer{
+  height: 1000px;
   width:100%;
   @include background(linear-gradient(red, green) left repeat);
   //@include position(absolute, null null 0 0);
