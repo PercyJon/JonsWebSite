@@ -62,6 +62,10 @@
 
 
     <script src="{{ URL::asset('assets/js/plugins/jquery.min.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/plugins/jquery-ui.min.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/plugins/TweenMax.min.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/plugins/CSSPlugin.min.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/plugins/main.js') }}"></script>
     <script src="{{ URL::asset('assets/js/plugins/modernizr.js') }}"></script>
     <script src="{{ URL::asset('assets/js/plugins/classie.js') }}"></script>
     <script src="{{ URL::asset('assets/js/plugins/cbpAnimatedHeader.js') }}"></script>
