@@ -28,13 +28,14 @@
 
 
             <div class="container">
+
                 <div class="col-sm-12">
                     <div class="articles-header">
                         <h2>文章列表</h2>
                     </div>
 
                     <div class="articles-block">
-                    <div class="media">
+                    <div class="media articles-media">
                         {{--<div class="media-left media-middle">--}}
                             {{--<a href="#">--}}
                                 {{--<img class="media-object" src="..." alt="...">--}}
@@ -52,7 +53,7 @@
                         </div>
                     </div>
 
-                        <div class="media">
+                        <div class="media articles-media">
                             {{--<div class="media-left media-middle">--}}
                             {{--<a href="#">--}}
                             {{--<img class="media-object" src="..." alt="...">--}}
@@ -70,7 +71,7 @@
                             </div>
                         </div>
 
-                        <div class="media">
+                        <div class="media articles-media">
                             {{--<div class="media-left media-middle">--}}
                             {{--<a href="#">--}}
                             {{--<img class="media-object" src="..." alt="...">--}}
@@ -88,7 +89,7 @@
                             </div>
                         </div>
 
-                        <div class="media">
+                        <div class="media articles-media">
                             {{--<div class="media-left media-middle">--}}
                             {{--<a href="#">--}}
                             {{--<img class="media-object" src="..." alt="...">--}}
@@ -106,7 +107,7 @@
                             </div>
                         </div>
 
-                        <div class="media">
+                        <div class="media articles-media">
                             {{--<div class="media-left media-middle">--}}
                             {{--<a href="#">--}}
                             {{--<img class="media-object" src="..." alt="...">--}}
@@ -124,7 +125,7 @@
                             </div>
                         </div>
 
-                        <div class="media">
+                        <div class="media articles-media">
                             {{--<div class="media-left media-middle">--}}
                             {{--<a href="#">--}}
                             {{--<img class="media-object" src="..." alt="...">--}}
@@ -142,7 +143,7 @@
                             </div>
                         </div>
 
-                        <div class="media">
+                        <div class="media articles-media">
                             {{--<div class="media-left media-middle">--}}
                             {{--<a href="#">--}}
                             {{--<img class="media-object" src="..." alt="...">--}}
@@ -160,7 +161,7 @@
                             </div>
                         </div>
 
-                        <div class="media">
+                        <div class="media articles-media">
                             {{--<div class="media-left media-middle">--}}
                             {{--<a href="#">--}}
                             {{--<img class="media-object" src="..." alt="...">--}}

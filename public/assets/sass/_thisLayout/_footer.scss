@@ -4,7 +4,10 @@
   position: relative;
   @include background(url("../img/bg1.jpg") center no-repeat fixed);
   @include size(100% 300px);
-
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   .cloud{
     @extend %cloud-svg;
     top:-8px;
