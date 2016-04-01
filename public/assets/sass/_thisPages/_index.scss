@@ -35,14 +35,9 @@
 
 //quotation
 #quotation{
-  position: relative;
-  @include background(url("../img/bg1.jpg") center no-repeat fixed);
-  @include size(100% 175px);
-
-  .cloud{
-    @extend %cloud-svg;
-    top:-8px;
-    @include transform(scaleY(-1));
-  }
+  position: absolute;
+  margin: 0 auto;
+  width: 99.9%;
+  top: 300px;
 }
 

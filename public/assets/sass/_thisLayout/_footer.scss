@@ -1,8 +1,13 @@
 @import "../bourbon/_bourbon";
 
 #footer{
-  height: 1000px;
-  width:100%;
-  @include background(linear-gradient(red, green) left repeat);
-  //@include position(absolute, null null 0 0);
+  position: relative;
+  @include background(url("../img/bg1.jpg") center no-repeat fixed);
+  @include size(100% 300px);
+
+  .cloud{
+    @extend %cloud-svg;
+    top:-8px;
+    @include transform(scaleY(-1));
+  }
 }
