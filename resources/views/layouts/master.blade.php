@@ -46,9 +46,12 @@
     </div><!-- /.container-fluid -->
   </nav>
 
+
+
   @yield('content')
 
-  {{--@extends('common.footer')--}}
+
+
   <footer id="footer">
     <h1>这是脚 !</h1>
   </footer>

@@ -1,3 +1,9 @@
+.cloud-svg{
+  position: absolute;
+  bottom:-8px;
+  width:100%;
+}
+
 #header{
   position: relative;
   text-align: center;
@@ -13,16 +19,20 @@
     background: rgba(0,0,0,.5);
     width: inherit;
     height: inherit;
+    @include position(absolute, 0 null null 0);
   }
 }
 
 //articles
 #articles{
-  height:500px;
+  //height:500px;
+  position: relative;
 }
 
 
 //quotation
 #quotation{
-  height:500px;
+  //height:500px;
+  
 }
+

@@ -3,5 +3,5 @@
 #footer{
   width:100%;
   @include background(linear-gradient(red, green) left repeat);
-  @include position(fixed, null null 0 0);
+  //@include position(absolute, null null 0 0);
 }
