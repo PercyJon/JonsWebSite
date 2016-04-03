@@ -1,5 +1,4 @@
 /vendor
-/config/database.php
 /public/assets/sass/bourbon
 /public/assets/sass/.sass-cache
 /node_modules
