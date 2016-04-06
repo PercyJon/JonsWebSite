@@ -22,7 +22,7 @@ Route::get('/blog/{slug}','BlogController@showPost');
 /* ADMIN */
 
 Route::get('admin',function(){
-    return redirect('admin/post');
+    return redirect('/admin/post');
 });
 
 Route::group(['namespace' => 'Admin', 'middleware' => 'auth'],function(){
