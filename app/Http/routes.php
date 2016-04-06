@@ -11,14 +11,14 @@
 |
 */
 
-/*Route::group(['middleware' => ['web']], function () {
+Route::group(['middleware' => ['web']], function () {
 
     //Task lists
     Route::get('/', function () {
 
         return view('index');
     });
-});*/
+});
 
-Route::get('/', 'BlogController@index');
+Route::get('/blog', 'BlogController@index');
 Route::get('/blog/{slug}','BlogController@showPost');

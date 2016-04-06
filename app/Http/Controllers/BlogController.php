@@ -23,6 +23,6 @@ class BlogController extends Controller
 
         $post = Post::where('slug',$slug)->firstOrFail();
 
-        return view('blog.articlescontent')->withPost($post);
+        return view('blog.articlecontent')->withPost($post);
     }
 }
