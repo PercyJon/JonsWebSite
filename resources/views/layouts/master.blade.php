@@ -38,9 +38,9 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#" alt="mystore">藏书阁</a></li>
-          <li><a href="#" alt="articles">文章列表</a></li>
-          <li><a href="#" alt="about">关于我</a></li>
+          <li><a href="{{ URL::to('/') }}" alt="mystore">藏书阁</a></li>
+          <li><a href="{{ URL::to('/blog') }}" alt="articles">文章列表</a></li>
+          <li><a href="{{ URL::to('/about') }}" alt="about">关于我</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->

@@ -11,14 +11,17 @@
 |
 */
 
-Route::group(['middleware' => ['web']], function () {
-
-    //Task lists
-    Route::get('/', function () {
-
-        return view('index');
-    });
+Route::match(['get', 'post'], '/', function () {
+    return view('index');
 });
 
 Route::get('/blog', 'BlogController@index');
 Route::get('/blog/{slug}','BlogController@showPost');
+
+
+/* ADMIN */
+
+Route::get('admin',function(){
+    return view('admin/post');
+});
+
