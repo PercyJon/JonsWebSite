@@ -20,6 +20,8 @@ Route::get('/blog/{slug}','BlogController@showPost');
 
 Route::get('/about', 'AboutController@index');
 
+
+
 /* ADMIN */
 
 Route::get('admin',function(){
@@ -33,3 +35,7 @@ Route::group(['namespace' => 'Admin', 'middleware' => 'auth'],function(){
     Route::get('admin/upload', 'UploadController@index');
 
 });
+
+Route::get('auth/login','Auth\AuthContoller@getLogin');
+Route::post('auth/login','Auth\AuthContoller@postLogin');
+Route::get('auth/logout','Auth\AuthContoller@getLogout');
