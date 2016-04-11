@@ -25,4 +25,6 @@ class BlogController extends Controller
 
         return view('blog.articlecontent')->withPost($post);
     }
+
+
 }

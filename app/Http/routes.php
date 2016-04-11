@@ -18,6 +18,7 @@ Route::match(['get', 'post'], '/', function () {
 Route::get('/blog', 'BlogController@index');
 Route::get('/blog/{slug}','BlogController@showPost');
 
+Route::get('/about', 'AboutController@index');
 
 /* ADMIN */
 
