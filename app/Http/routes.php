@@ -35,6 +35,7 @@ Route::group(['namespace' => 'Admin', 'middleware' => 'auth'],function(){
 });
 
 
+<<<<<<< HEAD
 Route::get('auth/login', 'Auth\AuthController@getLogin');
 Route::post('auth/login', 'Auth\AuthController@postLogin');
 Route::get('auth/logout', 'Auth\AuthController@getLogout');
@@ -45,3 +46,8 @@ Route::group(['middleware' => 'web'], function () {
     Route::auth();
     Route::get('/home', 'HomeController@index');
 });
+=======
+Route::get('/auth/login', 'Auth\AuthController@getLogin');
+Route::post('/auth/login', 'Auth\AuthController@postLogin');
+Route::get('/auth/logout', 'Auth\AuthController@getLogout');
+>>>>>>> parent of bd9e42f... create the login page
