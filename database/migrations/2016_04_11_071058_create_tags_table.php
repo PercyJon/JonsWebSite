@@ -22,7 +22,7 @@ class CreateTagsTable extends Migration
             $table->string('reverse_direction');
             $table->timestamps();
         });
-    } 
+    }
 
     /**
      * Reverse the migrations.
