@@ -11,13 +11,18 @@
 |
 */
 
+<<<<<<< HEAD
 Route::match(['get', 'post'], '/', function () {
     return view('index');
 });
+=======
+Route::group(['middleware' => ['web']], function () {
+>>>>>>> parent of 0c09cbe... add the content of articles!
 
 Route::get('/blog', 'BlogController@index');
 Route::get('/blog/{slug}','BlogController@showPost');
 
+<<<<<<< HEAD
 Route::get('/about', 'AboutController@index');
 
 
@@ -39,3 +44,10 @@ Route::group(['namespace' => 'Admin', 'middleware' => 'auth'],function(){
 Route::get('auth/login','Auth\AuthContoller@getLogin');
 Route::post('auth/login','Auth\AuthContoller@postLogin');
 Route::get('auth/logout','Auth\AuthContoller@getLogout');
+=======
+        return view('index');
+    });
+
+
+});
+>>>>>>> parent of 0c09cbe... add the content of articles!
